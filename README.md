@@ -1,4 +1,4 @@
-# Loopstudios-landing-page
+### Loopstudios-landing-page
 
 <p>Landing page para treinar os conceitos de HTML, CSS e JS</p>
 
