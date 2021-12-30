@@ -1,0 +1,106 @@
+/* HEADER */
+
+@media (max-width: 1200px){
+    header{
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 1000px){    
+    .logo{
+        /* position: absolute; */
+        margin-left: -100px;
+    }
+    .container nav{
+        display: flex;
+        flex-direction: column;
+        
+        position: absolute;
+        margin-left: -100px;
+        margin-top: 50px;
+
+    }
+    .container nav a{
+        margin-top: 20px;
+        align-items: center;   
+    }
+    .text-header{
+        margin-top: 300px;
+        margin-left: 155px;
+        width: 13rem;
+        font-size: 20px;
+    }
+    /* section 1 */
+    .section1 .img-section1{
+        margin-right: -250px;
+        margin-top: 500px;
+
+        width: 500px
+    }
+    .section1 .text-section1{
+        margin-top: -50px;
+        margin-left: 100px;
+
+    }.section1 .text-section1 h2{
+        font-size: 30px;
+    }.section1 .text-section1 p{
+        font-size: 20px;
+    }
+    /* section 2 */
+    .section2{
+        margin-top: 200px;
+    }.section2 h2{
+        margin-left: 150px;
+        font-size: 25px;
+    }.section2 a{
+        margin-right: 120px;
+        width: 100px;
+    }.section2 .cards-imagens{
+        margin-left: 110px;
+    }
+    /* footer */
+    .footer .container{
+        margin-right: -300px;
+    }
+    .footer .container h4{
+        margin-top: 5px;
+        margin-left: -290px;
+    }
+    .footer .container .group1 i {
+        margin-top: 15px;
+    }
+    .footer .group3 nav{
+        display: flex;
+        flex-direction: column;
+
+        margin-top: -20px;
+        margin-left: -150px;
+        align-items: center;
+
+    }.footer .group3 nav a{
+        margin-top: 2px;
+    }
+}
+
+/* SECTION 1 */
+
+@media (max-width: 1575px){
+    .section1 .img-section1{
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-left: 20px;
+    }
+    .text-section1 h2{
+        font-size: 20px;
+    }.text-section1 p{
+        font-size: 15px;
+    }
+    .text-section1{
+        margin-top: -220px;
+        margin-left: 600px;
+
+        width: 18rem;
+        padding: 2rem;
+    }
+}
+

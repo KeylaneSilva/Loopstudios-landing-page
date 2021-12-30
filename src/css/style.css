@@ -117,6 +117,11 @@ nav{
     padding: 10px;
 }
 
+/* .section2 a:hover{
+    border-radius: 50%;
+    transition: 1s;
+} */
+
 .section2 h2{
     margin-right: 11rem;
     font-size: 35px;
@@ -147,6 +152,10 @@ footer{
     color: #ffffff;
     
     height: 9rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 }
 
 .container{
@@ -183,8 +192,14 @@ footer{
 
 .group3 a{
     margin-right: 1rem;
+
+   
 }
 
 .group3 p{
     margin-top: -1rem;
+}
+
+.conteudo{
+    padding-bottom: 30px;
 }
